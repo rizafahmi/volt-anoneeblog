@@ -6,8 +6,8 @@ require 'capybara/poltergeist'
 Capybara.default_driver = :poltergeist
 Capybara.register_driver :poltergeist do |app|
     options = {
-        :js_errors => true,
-        :timeout => 120,
+        :js_errors => false,
+        :timeout => 240,
         :debug => false,
         :phantomjs_options => ['--load-images=no', '--disk-cache=false'],
         :inspector => true,

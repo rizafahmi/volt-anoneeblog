@@ -5,6 +5,7 @@ Feature: Blogging
 
 Scenario: Creating a blog post
     Given I am on the home page
+    And I wait for 5 seconds
     And I follow "New Post"
     When I fill in "Title" with "Hello World!"
     And I fill in "Body" with "This is my first post!"

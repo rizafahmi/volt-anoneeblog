@@ -1,5 +1,6 @@
-Given(/^I follow "(.*?)"$/) do |link_name|
-  click_link link_name
+Given(/^I follow "(.*?)"$/) do |link|
+  click_link link
+  page.should have_content('Title')
 end
 
 When(/^I fill in "(.*?)" with "(.*?)"$/) do |field, value|

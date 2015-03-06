@@ -9,3 +9,5 @@ get '/login', _controller: 'user-templates', _action: 'login'
 # The main route, this should be last. It will match any params not
 # previously matched.
 get '/', {}
+
+get '/new', _action: 'new'
