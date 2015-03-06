@@ -22,11 +22,8 @@ end
 
 group :development do
   gem 'capybara'
-  gem 'rspec'
-  gem 'chromedriver2-helper'
+  gem 'cucumber'
+  gem 'rspec' , :require => "spec"
   gem 'poltergeist'
-  gem 'listen'
-  gem 'launchy'
-  gem 'guard'
-  gem 'guard-rspec'
+  gem 'selenium-webdriver'
 end
