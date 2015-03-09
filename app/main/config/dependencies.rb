@@ -3,7 +3,8 @@
 
 # bootstrap css framework
 component 'bootstrap'
-
+# component 'semanticui'
+#
 # a default theme for the bootstrap framework
 component 'bootstrap-jumbotron-theme'
 

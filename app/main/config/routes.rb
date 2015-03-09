@@ -10,4 +10,4 @@ get '/login', _controller: 'user-templates', _action: 'login'
 # previously matched.
 get '/', {}
 
-get '/new', _action: 'new'
+get '/post/new', _controller: 'post', _action: 'new'

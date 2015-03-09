@@ -7,6 +7,7 @@ gem 'volt', '0.8.26'
 
 # Twitter bootstrap
 gem 'volt-bootstrap'
+# gem 'volt-semantic-ui'
 
 # Simple theme for bootstrap, remove to theme yourself.
 gem 'volt-bootstrap-jumbotron-theme'
@@ -26,4 +27,9 @@ group :development do
   gem 'rspec' , :require => "spec"
   gem 'poltergeist'
   gem 'selenium-webdriver'
+  gem 'guard'
+  gem 'guard-cucumber'
+  # gem 'ruby_gntp'
+  gem 'libnotify'
+  gem 'rb-inotify'
 end
